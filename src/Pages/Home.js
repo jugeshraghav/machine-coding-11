@@ -3,10 +3,7 @@ import { MovieCard } from "../Components/MovieCard";
 import { useData } from "../Contexts/DataContext";
 
 export const Home = () => {
-  const {
-    state: { movies },
-    filteredMoviesArr,
-  } = useData();
+  const { filteredMoviesArr } = useData();
 
   return (
     <>
