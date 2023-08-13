@@ -2,7 +2,7 @@ import { movies } from "../Data/Data";
 localStorage.setItem("movies", JSON.stringify(movies));
 const initial_state = {
   movies: JSON.parse(localStorage.getItem("movies")),
-  watchlist: JSON.parse(localStorage.getItem("watchlater")) || [],
+  watchlist: JSON.parse(localStorage.getItem("watchlist")) || [],
   starred: JSON.parse(localStorage.getItem("starred")) || [],
 
   //filter

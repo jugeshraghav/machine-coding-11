@@ -52,7 +52,7 @@ export const FilterContainer = () => {
             value={state?.releaseYear}
             onChange={handleReleaseYear}
           >
-            <option>Release Year</option>
+            <option value="Release Year">Release Year</option>
             {releaseYearArr?.map((curr, index) => (
               <option key={index} value={curr}>
                 {curr}
@@ -65,7 +65,7 @@ export const FilterContainer = () => {
             value={state?.rating}
             onChange={handleRating}
           >
-            <option>Rating</option>
+            <option value="Rating">Rating</option>
             {ratingArr?.map((curr, index) => (
               <option key={index} value={curr}>
                 {curr}
